@@ -1,3 +1,9 @@
 [submodule "external/backward-cpp"]
 	path = external/backward-cpp
 	url = git@github.com:westernmagic/backward-cpp.git
+[submodule "external/MathGL"]
+	path = external/MathGL
+	url = https://github.com/svn2github/MathGL.git
+[submodule "external/mathgl-figure"]
+	path = external/mathgl-figure
+	url = https://github.com/Cryoris/mathgl-figure.git
