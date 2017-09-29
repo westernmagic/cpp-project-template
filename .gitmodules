@@ -1,0 +1,3 @@
+[submodule "external/backward-cpp"]
+	path = external/backward-cpp
+	url = git@github.com:westernmagic/backward-cpp.git
