@@ -1,1 +1,1 @@
-common/cmake/Settings.cmake
+cmake/Settings.cmake
