@@ -11,8 +11,9 @@ install (FILES ${PROJECT_ROOT_DIR}/.gitmodules DESTINATION .)
 # add out-of-source directories
 set (CPACK_SOURCE_INSTALLED_DIRECTORIES
 	${CMAKE_SOURCE_DIR};/${CMAKE_PROJECT_NAME}
-	${PROJECT_ROOT_DIR}/common;/common
-	${PROJECT_ROOT_DIR}/external/libigl-example-project/cmake;/common/cmake
+	${PROJECT_ROOT_DIR}/cmake;/cmake
+	${PROJECT_ROOT_DIR}/include;/include
+	${PROJECT_ROOT_DIR}/external/libigl-example-project/cmake;/cmake
 )
 include (CPack)
 
