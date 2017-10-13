@@ -9,6 +9,7 @@ if (NOT DEFINED GUARD_${CMAKE_CURRENT_LIST_FILE})
 	include (MyThreads)
 	include (MyOpenMP)
 	include (MyEigen)
+	include (MyMathGL2)
 
 	include (Submission)
 endif (NOT DEFINED GUARD_${CMAKE_CURRENT_LIST_FILE})
