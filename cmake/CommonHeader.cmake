@@ -23,7 +23,7 @@ if (    NOT cmake_build_type_tolower STREQUAL "debug"
 	message(FATAL_ERROR "Unknown build type \"${CMAKE_BUILD_TYPE}\". Allowed values are Debug, Release, RelWithDebInfo (case-insensitive).")
 endif ()
 
-include_directories (${PROJECT_ROOT_DIR}/common/include)
+include_directories (${PROJECT_ROOT_DIR}/include)
 
 # Don't make any install rules
 #set (CMAKE_SKIP_INSTALL_RULES TRUE)
