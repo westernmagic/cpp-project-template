@@ -10,3 +10,6 @@
 [submodule "external/mathgl-figure"]
 	path = external/mathgl-figure
 	url = https://github.com/Cryoris/mathgl-figure.git
+[submodule "external/UseLatexMk"]
+	path = external/UseLatexMk
+	url = https://github.com/dokempf/UseLatexMk.git
