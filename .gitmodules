@@ -1,6 +1,6 @@
 [submodule "external/backward-cpp"]
 	path = external/backward-cpp
-	url = https://github.com/westernmagic/backward-cpp.git
+	url = https://github.com/bombela/backward-cpp.git
 [submodule "external/eigen"]
 	path = external/eigen
 	url = https://github.com/RLovelett/eigen.git
